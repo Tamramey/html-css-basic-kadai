@@ -1,0 +1,54 @@
+
+
+
+
+
+
+
+
+
+/* 全体のフォント設定 */
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+  text-align: center;
+}
+/* ルート要素のフォント設定 */
+:root {
+  font-size:20px;
+}
+
+/* MY PROFILEの色設定 */
+.my-profile-m {
+  color: skyblue;
+}
+
+.my-profile-p {
+  color: rgb(255, 192, 203);
+}
+
+/* ピンクに設定する要素 */
+.pink-text {
+  color: rgb(255, 192, 203)
+}
+
+/* スカイブルーに設定する要素 */
+.skyblue-text {
+  color: skyblue;
+}
+/* h1のフォント設定 */
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2em;
+  letter-spacing: 1.2em;
+  text-shadow:2px 2px 4px rgba(0, 0, 0, 0.5);
+  border-bottom: 3px solid rgb(115, 115, 114);
+  text-align:center;
+}
+
+#basic strong {
+  font-weight: bold;
+}
+
+p {
+  font-weight: normal;
+}
