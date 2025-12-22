@@ -45,9 +45,10 @@ h1 {
   text-align:center;
 }
 
-#basic strong {
+#basic .bold {
   font-weight: bold;
 }
+
 
 
 
