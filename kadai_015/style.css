@@ -13,7 +13,7 @@ body {
   text-align: center;
 }
 /* ルート要素のフォント設定 */
-:root {
+:html {
   font-size:20px;
 }
 
@@ -48,6 +48,7 @@ h1 {
 #basic .bold {
   font-weight: bold;
 }
+
 
 
 
