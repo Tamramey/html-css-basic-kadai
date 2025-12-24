@@ -48,6 +48,9 @@ h1 {
 #basic .bold {
   font-weight: bold;
 }
+#basic > p {
+  font-weight: bold;
+}
 
 
 
