@@ -1,12 +1,3 @@
-
-
-
-
-
-
-
-
-
 /* 全体のフォント設定 */
 body {
   font-family: "Arial", "Meiryo", sans-serif;
@@ -45,9 +36,6 @@ h1 {
   text-align:center;
 }
 
-#basic .bold {
-  font-weight: bold;
-}
 #basic > p {
   font-weight: bold;
 }
