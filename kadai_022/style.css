@@ -64,7 +64,7 @@ h2::before {
 
 }
 p::first-letter {
-    font-weight: rgb(97,206,249)
+    font-weight: bold;
 }
 .contents p:nth-of-type(2)::first-letter {
     color: rgb(97, 206, 249)
