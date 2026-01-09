@@ -1,0 +1,114 @@
+h1, p, body {
+  margin: 0px;
+  
+}
+.p .a {
+  font-size: 20px;
+}
+header {
+  margin-bottom: 20px;
+  background-color: rgb(244,79,79)
+  
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+header {
+  margin: 0; 
+}
+
+header h1 {
+  color: rgb(255,255,255)
+}
+.parent {
+   display: flex;
+}
+main {
+  padding: 10px;
+}
+#parent {
+    display: flex;
+    justify-content: space-around;
+}
+.contents {
+  padding: 10px 15px;
+  margin: 20px 0px;
+
+  border: solid 3px rgb(238, 204, 204);
+}
+  .contents {
+    flex-basis: 25%;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+   font-size: 25px;
+   border: none;
+   border-bottom: dotted 3px rgb(238,204,204)
+
+   
+   
+}
+h2::before {
+    content: "●";
+    color:rgb(239, 111, 139)
+
+}
+p::first-letter {
+    font-weight: rgb(97,206,249)
+}
+.contents p:nth-of-type(2)::first-letter {
+    color: rgb(97, 206, 249)
+    
+}
+
+footer {
+    background-color: rgb(244,79,79)
+}
+.box {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+}
+footer a {
+  color: rgb(255,255,255)
+}
+footer a:visited {
+  color: rgb(193,234,251)
+}
+
+footer {
+  text-align: center
+
+
+}
+.contents img {
+  margin: 10px 0;
+  width: 70%;
+}
+    
+
+
+
+
+@media screen and (max-width:768px) {
+  h2 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 25px;
+  }
+  #parent {
+    flex-direction: column;
+  }
+
+  }
